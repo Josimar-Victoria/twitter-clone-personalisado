@@ -21,10 +21,10 @@ export default function Sidebar() {
       <IconOption text="Explorar" Icon={Search} />
       <IconOption text="Notificaciones" Icon={NotificationsNone} />
       <IconOption text="Mensaje" Icon={MailOutline} />
-      <IconOption text="Marcadores" Icon={BookmarkBorder} />
-      <IconOption text="Listas" Icon={ListAlt} />
-      <IconOption text="Perfil" Icon={PermIdentity} />
-      <IconOption text="Mas" Icon={MoreHoriz} />
+      <IconOption primary text="Marcadores" Icon={BookmarkBorder} />
+      <IconOption primary text="Listas" Icon={ListAlt} />
+      <IconOption primary text="Perfil" Icon={PermIdentity} />
+      <IconOption primary text="Mas" Icon={MoreHoriz} />
       <Button variant="outlined" fullWidth>
         Twetter
       </Button>

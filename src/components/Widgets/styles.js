@@ -16,6 +16,13 @@ box-sizing: border-box;
     background-color: rgba(179, 179, 179);
     cursor: pointer;
   }
+
+  @media only screen and (max-width: 1004px) {
+    flex: 0.4;
+  }
+  @media only screen and (max-width: 500px) {
+   display: none;
+  }
 `
 export const Header = styled.header`
 background-color: white !important; ;

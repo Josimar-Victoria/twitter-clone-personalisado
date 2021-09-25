@@ -17,6 +17,15 @@ export const Container = styled.div`
     background-color: rgba(179, 179, 179);
     cursor: pointer;
   }
+  @media only screen and (max-width: 1280px) {
+   flex: 0.55;
+  }
+  @media only screen and (max-width: 1004px) {
+   flex: 0.95;
+  }
+  @media only screen and (max-width: 500px) {
+   flex: 1
+  }
 `;
 
 export const Header = styled.header``;
